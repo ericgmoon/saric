@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@vendia/serverless-express": "^4.5.2",
+    "aws-sdk": "^2.1035.0",
+    "body-parser": "^1.19.0",
+    "chalk": "4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "lint": "eslint",
+    "test": "./node_modules/.bin/jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.3.0",
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.15"
+  }
+}
